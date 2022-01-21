@@ -46,7 +46,7 @@ function mostrarError(mensaje) {
 
 function consultarAPI(ciudad, pais) {
 
-    const apiKey = '4fa1a06f7c73075eb3cf5070a3eed8ae';
+    const apiKey = 'ApiKeyde';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${apiKey}`
 
     
